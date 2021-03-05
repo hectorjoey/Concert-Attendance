@@ -2,11 +2,20 @@ package com.company;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Company {
 
+
+    static Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) {
-//objects of concerts
+
+        System.out.println("*******************");
+        System.out.println("CONCERT ATTENDANCE 👥");
+        System.out.println("*******************");
+
+        //objects of concerts
         Concerts concerts = new Concerts(1, "TuFace", 5000, LocalDate.now());
         Concerts concerts1 = new Concerts(2, "PSquare", 5000, LocalDate.now());
         Concerts concerts2 = new Concerts(3, "Celine Dion", 20000, LocalDate.now());
@@ -206,21 +215,19 @@ public class Company {
         System.out.println("Venues ::" + venues2.concertsList);
 
 
-////        to get average Venue attendance
-//        int aveAttendance[] = {concerts.getAttendance(), concerts1.getAttendance(), concerts2.getAttendance(), concerts3.getAttendance(), concerts4.getAttendance()};
-//
-//        int sum = 0;
-//        for (int i = 0; i < aveAttendance.length; i++)
-//            sum += aveAttendance[i];
-//
-//        double average = ((double) sum) / aveAttendance.length;
-//
-//        System.out.println("Average :::" + average);
-//    }
+//        to get average Venue attendance
+        int[] aveAttendance = {concerts.getAttendance(), concerts1.getAttendance(), concerts2.getAttendance(), concerts3.getAttendance(), concerts4.getAttendance()};
+
+        int sum = 0;
+        for (int value : aveAttendance) sum += value;
+
+        double average = ((double) sum) / aveAttendance.length;
+
+        System.out.println("Average :::" + average);
+    }
 
 
     }
-}
 
 
 

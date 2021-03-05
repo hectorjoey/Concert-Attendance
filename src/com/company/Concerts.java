@@ -3,13 +3,11 @@ package com.company;
 import java.time.LocalDate;
 
 public class Concerts {
-int id;
+    int id;
     //variables
-  private  String artist;
- private int attendance;
-   private LocalDate date;
-
-//   public Concerts(){}
+    private  String artist;
+    private int attendance;
+    private LocalDate date;
 
     public Concerts(int id, String artist, int attendance, LocalDate date) {
         this.id = id;
@@ -17,6 +15,7 @@ int id;
         this.attendance = attendance;
         this.date = date;
     }
+
 //getters and setters of the variables
     public int getId() {
         return id;
@@ -50,14 +49,13 @@ int id;
         this.date = date;
     }
 
-    public void aveVenueAttence(int attendance){
-        int aveAttendance[] = {attendance};
-
+    public void aveVenueAttendance(int attendance){
+        int[] averageAttendance = {attendance};
         int sum = 0;
-        for (int i = 0; i < aveAttendance.length; i++)
-            sum += aveAttendance[i];
-
-        double average = ((double) sum) / aveAttendance.length;
+        for (int value : averageAttendance) {
+            sum += value;
+        }
+        double average = ((double) sum) / averageAttendance.length;
 
         System.out.println("AVerage :::" + average);
     }

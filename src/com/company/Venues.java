@@ -12,6 +12,15 @@ public class Venues {
 
     ArrayList<Concerts> concertsList;
 
+    public  Venues(){}
+
+    public Venues(String name, String location, String yearOfOpen, int capacity, ArrayList<Concerts> concertsList) {
+        this.name = name;
+        this.location = location;
+        this.yearOfOpen = yearOfOpen;
+        this.capacity = capacity;
+        this.concertsList = concertsList;
+    }
 
     public String percentageCapacity(int capacity, int maxCapacity) {
         int percentage = (capacity * 100) / maxCapacity;
@@ -24,6 +33,10 @@ public class Venues {
         return percentage + "%";
     }
 
+
+    public ArrayList<Concerts> getConcertsList() {
+        return concertsList;
+    }
 
 
 }
