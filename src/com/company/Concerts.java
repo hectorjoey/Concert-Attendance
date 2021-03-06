@@ -3,21 +3,23 @@ package com.company;
 import java.time.LocalDate;
 
 public class Concerts {
-    int id;
+   private long id;
     //variables
-    private  String artist;
+    private String artist;
     private int attendance;
-    private LocalDate date;
+    private long venueId;
+    private String date;
 
-    public Concerts(int id, String artist, int attendance, LocalDate date) {
+
+    public Concerts(long id, String artist, int attendance, long venueId,   String date) {
         this.id = id;
         this.artist = artist;
         this.attendance = attendance;
+        this.venueId = venueId;
         this.date = date;
     }
 
-//getters and setters of the variables
-    public int getId() {
+    public long getId() {
         return id;
     }
 
@@ -41,22 +43,19 @@ public class Concerts {
         this.attendance = attendance;
     }
 
-    public LocalDate getDate() {
+    public long getVenueId() {
+        return venueId;
+    }
+
+    public void setVenueId(long venueId) {
+        this.venueId = venueId;
+    }
+
+    public String getDate() {
         return date;
     }
 
-    public void setDate(LocalDate date) {
+    public void setDate(String date) {
         this.date = date;
-    }
-
-    public void aveVenueAttendance(int attendance){
-        int[] averageAttendance = {attendance};
-        int sum = 0;
-        for (int value : averageAttendance) {
-            sum += value;
-        }
-        double average = ((double) sum) / averageAttendance.length;
-
-        System.out.println("AVerage :::" + average);
     }
 }
