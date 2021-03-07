@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73f110e1-4675-4981-9de4-2537c9e5ef88" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/Concert Attendance/com/company/Company.class" afterPath="$PROJECT_DIR$/out/production/Concert Attendance/com/company/Company.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Concert Attendance/com/company/Concerts.class" afterPath="$PROJECT_DIR$/out/production/Concert Attendance/com/company/Concerts.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Concert Attendance/com/company/Venues.class" afterPath="$PROJECT_DIR$/out/production/Concert Attendance/com/company/Venues.class" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Company.java" afterPath="$PROJECT_DIR$/src/com/company/Company.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Concerts.java" afterPath="$PROJECT_DIR$/src/com/company/Concerts.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Venues.java" afterPath="$PROJECT_DIR$/src/com/company/Venues.java" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="Company.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,7 +46,7 @@
       <file leaf-file-name="Concerts.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Concerts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="271">
               <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
               <folding>
                 <element signature="e#489#490#0" expanded="true" />
@@ -80,8 +77,8 @@
       <file leaf-file-name="Venues.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Venues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="135">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,6 +98,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>package com.company;import java.util.ArrayList;public class Venues {    //variables    String name;    String location;    String yearOfOpen;    int capacity;    int totalCapacity= 10000;    ArrayList&lt;Concerts&gt; concertsList;        public String percentageCapacity(int capacity) {        int percentage = (capacity * 100) /totalCapacity ;        if (percentage &gt; 85){            System.out.println(&quot;Capacity warning triggered&quot;);            }else {            System.out.println(&quot;Capacity ok!&quot;);        }        return  percentage + &quot;%&quot;;    }}</find>
+      <find>Percentage of Concert 7:</find>
+      <find>Percentage of Concert 7:: 153%</find>
+      <find>Percentage of concert 8</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -260,7 +260,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12718000" />
+    <option name="totallyTimeSpent" value="20192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -276,7 +276,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24177632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30756578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -351,13 +351,15 @@
     <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1614906237299" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Concerts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="271">
           <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
             <element signature="e#489#490#0" expanded="true" />
@@ -386,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Venues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="135">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -396,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -10,7 +10,7 @@ public class Venues {
     String location;
     String yearOfOpen;
     int capacity;
-    int maxCapacity;
+    //    int maxCapacity;
     Set<Concerts> concertsSet = new HashSet<>();
 
     public Venues() {
@@ -27,17 +27,4 @@ public class Venues {
 //        }
 //        return percentage + "%";
 //    }
-
-    @Override
-    public String toString() {
-        return "Venues{" +
-                "Id=" + Id +
-                ", name='" + name + '\'' +
-                ", location='" + location + '\'' +
-                ", yearOfOpen='" + yearOfOpen + '\'' +
-                ", capacity=" + capacity +
-                ", maxCapacity=" + maxCapacity +
-                ", concerts=" + concertsSet +
-                '}';
-    }
 }
