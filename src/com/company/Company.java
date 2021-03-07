@@ -10,8 +10,8 @@ public class Company {
         Concerts concerts3 = new Concerts(4, "Elton John", 800, 3, "3/12");
         Concerts concerts4 = new Concerts(5, "Sam Tompkins", 1300, 4, "4/12");
         Concerts concerts5 = new Concerts(6, "Beyonce", 1200, 4, "5/12");
-        Concerts concerts6 = new Concerts(7, "Sam Fender", 1500, 3, "6/12");
-        Concerts concerts7 = new Concerts(8, "Lil'Wayne", 2000, 4, "7/12");
+        Concerts concerts6 = new Concerts(7, "Sam Fender", 1500, 3, "6/13");
+        Concerts concerts7 = new Concerts(8, "Lil'Wayne", 2000, 4, "7/13");
         Concerts concerts8 = new Concerts(9, "Sam Smith", 570, 5, "8/12");
         Concerts concerts9 = new Concerts(10, "Adele", 1900, 6, "9/12");
         Concerts concerts10 = new Concerts(11, "Amy Winehouse", 12000, 7, "10/12");
