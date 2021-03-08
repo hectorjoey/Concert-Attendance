@@ -22,7 +22,7 @@ public class Company {
 
         System.out.println("\n" + "\n" + "******* Venue0***********");
 
-        //objects of venues
+        //objects of venues0
         Venues venues0 = new Venues();
         venues0.Id = 1;
         venues0.name = "Arts Club Liverpool";
@@ -63,6 +63,18 @@ public class Company {
         }
         System.out.format("Largest concerts in Venue 0 = %.2f", largest);
 
+        //average attendance in venues 0
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 0");
+        double[] numArray0 = {concerts0.getAttendance(), concerts2.getAttendance()};
+        double sum0 = 0.0;
+//        System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray0) {
+            sum0 += num;
+        }
+        double average0 = sum0 / numArray0.length;
+        System.out.format("\n" + "The Average attendance in venues0 is: %.2f", average0);
+
+
         System.out.println("\n" + "\n" + "\n" + "******* Venue 1 ***********");
         //objects of venues1
         Venues venues1 = new Venues();
@@ -93,6 +105,18 @@ public class Company {
                 largest1 = num;
         }
         System.out.format("Largest concerts in Venue 1 = %.2f", largest1);
+
+
+        //average attendance in venues 1
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 1");
+        double[] numArray1 = {concerts1.getAttendance()};
+        double sum1 = 0.0;
+//        System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray1) {
+            sum1 += num;
+        }
+        double average1 = sum1 / numArray1.length;
+        System.out.format("\n" + "The Average attendance in venues1 is: %.2f", average1);
 
 
         System.out.println("\n" + "\n" + "\n" + "******* Venue 2***********");
@@ -138,8 +162,19 @@ public class Company {
         }
         System.out.format("Largest concerts in venue2 = %.2f", largest2);
 
+        //average attendance in venues 2
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 2");
+        double[] numArray2 = {concerts3.getAttendance(), concerts6.getAttendance()};
+        double sum2 = 0.0;
+        //System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray2) {
+            sum2 += num;
+        }
+        double average2 = sum2 / numArray2.length;
+        System.out.format("\n" + "The Average attendance in venues2 is: %.2f", average2);
 
-        System.out.println("\n" + "\n" + "\n" + "******* Venue 3***********");
+
+        System.out.println("\n" + "\n" + "\n" + "******* VENUE 3***********");
         //objects of venues3
         Venues venues3 = new Venues();
         venues3.Id = 4;
@@ -193,6 +228,17 @@ public class Company {
         }
         System.out.format("Largest concerts in Venue3 = %.2f", largest3);
 
+        //average attendance in venues 3
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 3");
+        double[] numArray3 = {concerts4.getAttendance(), concerts5.getAttendance(), concerts7.getAttendance()};
+        double sum3 = 0.0;
+//        System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray3) {
+            sum3 += num;
+        }
+        double average3 = sum3 / numArray3.length;
+        System.out.format("The Average attendance in venues3 is: %.2f", average3);
+
 
         System.out.println("\n" + "\n" + "\n" + "******* Venue 4***********");
         //objects of venues4
@@ -225,6 +271,17 @@ public class Company {
                 largest4 = num;
         }
         System.out.format("Largest concerts in Venue4 = %.2f", largest4);
+
+        //average attendance in venues 4
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 4");
+        double[] numArray4 = {concerts8.getAttendance()};
+        double sum4 = 0.0;
+//        System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray4) {
+            sum4 += num;
+        }
+        double average4 = sum4 / numArray4.length;
+        System.out.format("\n" + "The Average attendance in venues4 is: %.2f", average4);
 
 
         System.out.println("\n" + "\n" + "\n" + "******* Venue 5***********");
@@ -259,6 +316,17 @@ public class Company {
         }
         System.out.format("Largest concerts in venue5 = %.2f", largest5);
 
+        //average attendance in venues 5
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 5");
+        double[] numArray5 = {concerts9.getAttendance()};
+        double sum5 = 0.0;
+//        System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray5) {
+            sum5 += num;
+        }
+        double average5 = sum5 / numArray5.length;
+        System.out.format("\n" + "The Average attendance in venues5 is: %.2f", average5);
+
 
         System.out.println("\n" + "\n" + "\n" + "******* Venue 6***********");
         //objects of venues6
@@ -271,7 +339,7 @@ public class Company {
         //list of concerts in venue 6
         venues6.concertsSet.add(concerts10);
         venues6.concertsSet.add(concerts14);
-        System.out.println("List of Concerts:: " + venues6.concertsSet);
+        System.out.println("List of Concerts objects for venue 6:: " + venues6.concertsSet);
 
         //percentage of capacity of concert10 of venues6
         int percentageVenue6 = (concerts10.getAttendance() * 100) / venues6.capacity;
@@ -301,6 +369,17 @@ public class Company {
                 largest6 = num;
         }
         System.out.format("Largest concerts in venue6 = %.2f", largest6);
+
+        //average attendance in venues 6
+        System.out.println("AVERAGE ATTENDANCE IN VENUE 6");
+        double[] numArray6 = {concerts10.getAttendance(), concerts14.getAttendance()};
+        double sum6 = 0.0;
+//        System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray6) {
+            sum6 += num;
+        }
+        double average6 = sum6 / numArray6.length;
+        System.out.format("\n" + "The Average attendance in venues6 is: %.2f", average6);
 
 
         System.out.println("\n" + "\n" + "\n" + "******* Venue 7***********");
@@ -346,6 +425,17 @@ public class Company {
         }
         System.out.format("\n" + "Largest concerts in venue7 = %.2f", largest7);
 
+        //average attendance in venues 7
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 7");
+        double[] numArray7 = {concerts11.getAttendance(), concerts13.getAttendance()};
+        double sum7 = 0.0;
+//        System.out.println("Number of Element:: " + numArray.length);
+        for (double num : numArray7) {
+            sum7 += num;
+        }
+        double average7 = sum7 / numArray7.length;
+        System.out.format("\n" + "The Average attendance in venues7 is: %.2f", average7);
+
 
         System.out.println("\n" + "\n" + "\n" + "******* Venue 8***********");
         //objects of venues8
@@ -378,6 +468,16 @@ public class Company {
         }
         System.out.format("\n" + "Largest concerts in venue8 = %.2f", largest8);
 
+        //average attendance in venues 8
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 8");
+        double[] numArray8 = {concerts12.getAttendance()};
+        double sum8 = 0.0;
+        for (double num : numArray8) {
+            sum8 += num;
+        }
+        double average8 = sum8 / numArray8.length;
+        System.out.format("\n" + "The Average attendance in venues8 is: %.2f", average8);
+
 
         System.out.println("\n" + "\n" + "\n" + "******* Venue 9***********");
 //        //objects of venues9
@@ -399,7 +499,7 @@ public class Company {
         } else {
             System.out.println("Capacity ok! for concert 13" + "\n");
         }
-        System.out.println("Percentage of concert 12:: " + percentageVenue9 + "%" +"\n");
+        System.out.println("Percentage of concert 12:: " + percentageVenue9 + "%" + "\n");
 
 
         //largest concerts in venues 9
@@ -411,6 +511,15 @@ public class Company {
         }
         System.out.format("\n" + "Largest concerts in venue9 = %.2f", largest9);
 
+        //average attendance in venues 9
+        System.out.println("\n" + "AVERAGE ATTENDANCE IN VENUE 9");
+        double[] numArray9 = {concerts13.getAttendance()};
+        double sum9 = 0.0;
+        for (double num : numArray9) {
+            sum9 += num;
+        }
+        double average9 = sum9 / numArray9.length;
+        System.out.format("\n" + "The Average attendance in venues8 is: %.2f", average9);
 
         //average attendance in venues
         double[] numArray = {concerts0.getAttendance(), concerts1.getAttendance(), concerts2.getAttendance(), concerts3.getAttendance(),
@@ -418,13 +527,50 @@ public class Company {
                 concerts8.getAttendance(), concerts9.getAttendance(), concerts10.getAttendance(), concerts11.getAttendance(),
                 concerts12.getAttendance(), concerts13.getAttendance(), concerts14.getAttendance()};
         double sum = 0.0;
-//        System.out.println("Number of Element:: " + numArray.length);
         for (double num : numArray) {
             sum += num;
         }
 
         double average = sum / numArray.length;
-        System.out.format("The Average attendance in venues is: %.2f", average);
+        System.out.format("\n" + "\n" + "The Average attendance in all venues is: %.2f", average);
+
+
+        //The venue with the largest average concert attendance
+        double[] numArrayAllVenues = {average0, average1, average2, average3, average4,
+                average5, average6, average7, average8, average9};
+        double largestVenues = numArrayAllVenues[0];
+        for (double num : numArrayAllVenues) {
+            if (largestVenues < num)
+                largestVenues = num;
+        }
+        System.out.format("\n" + "The venue with the largest average concert attendance = %.2f", largest9);
+
+
+        System.out.println("\n" + "A list of all concerts that have triggered the capacity warnings");
+        //A list of all concerts that have triggered the capacity warnings
+        int[] listOfHighCapacity = {percentageVenue, percentage, percentageVenue1, percentageVenue2, percentage21, percentageVenue3,
+                percentage31, percentageVenue4, percentageVenue5, percentageVenue6, percentageVenue61, percentageVenue7, percentageVenue71,
+                percentageVenue8, percentageVenue9};
+        for (int aListOfHighCapacity : listOfHighCapacity) {
+            if (aListOfHighCapacity >= 85) {
+                System.out.print(aListOfHighCapacity + " ");
+
+            }
+
+        }
+
+        //The venue with the fewest capacity warnings per year on average
+        double[] fewCapacity = {concerts0.getAttendance(), concerts1.getAttendance(), concerts2.getAttendance(), concerts3.getAttendance(),
+                concerts4.getAttendance(), concerts5.getAttendance(), concerts6.getAttendance(), concerts7.getAttendance(),
+                concerts8.getAttendance(), concerts9.getAttendance(), concerts10.getAttendance(), concerts11.getAttendance(),
+                concerts12.getAttendance(), concerts13.getAttendance(), concerts14.getAttendance()};
+        double loweestVenues = numArrayAllVenues[0];
+        for (double aFewCapacity : fewCapacity) {
+            if (loweestVenues > aFewCapacity)
+                loweestVenues = aFewCapacity;
+        }
+        System.out.format("\n" + "The venue with the fewest capacity warnings per year on average is: %.2f", loweestVenues);
 
     }
+
 }
